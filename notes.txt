@@ -12,5 +12,5 @@ Exchange Types:
 ===> send message to queue where binding key matches the routing key of message
 
 4) topic:
-===>  
+===>  topic will send message to the queue based on the pattern
 
