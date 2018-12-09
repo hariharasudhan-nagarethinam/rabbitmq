@@ -1,0 +1,16 @@
+Exchange Types:
+
+1)default/nameless:
+===> uses the routing key to deliver message to queue
+===> value should be ''
+
+2) fanout:
+===> send messages to all binded queues
+===> value should be 'fanout'
+
+3) direct:
+===> send message to queue where binding key matches the routing key of message
+
+4) topic:
+===>  
+
